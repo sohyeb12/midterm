@@ -68,7 +68,7 @@
             @csrf
             <li class="dropdown">
               <a
-                href="#"
+                href="{{url('data')}}"
                 class="dropdown-toggle"
                 data-toggle="dropdown"
                 role="button"

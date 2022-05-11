@@ -19,5 +19,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[TicktController::class,'index']);
-Route::post('add',[TicktController::class,'add']);
-// Route::get('open',[TicktController::class,'open']);
+Route::get('add',[TicktController::class,'add']);
+Route::post('addshift',[TicktController::class,'addshift']);
+Route::post('find',[TicktController::class,'find']);

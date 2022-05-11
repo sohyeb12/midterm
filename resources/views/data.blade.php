@@ -11,12 +11,12 @@
                     <div class="panel-body">
 
                         <div class="ticket-info">
-                            <p>Ticket no. 1</p>
-                            <p>Categry: Technical</p>
+                            <p>{{$tickt->title}}</p>
+                            <p>{{$tickt->Categry}}</p>
                             <p>
-                                Status: <span class="label label-success">Open</span>
+                            {{$tickt->stats}}: <span class="label label-success">Open</span>
                             </p>
-                            <p>Created on: 2 weeks ago</p>
+                            <p>{{$tickt->updated_at}}</p>
                         </div>
 
                         <hr>

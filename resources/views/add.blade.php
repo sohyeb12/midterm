@@ -8,7 +8,7 @@
 
                     <div class="panel-body">
 
-                        <form class="form-horizontal" role="form" method="POST" action="#">
+                        <form class="form-horizontal" role="form" method="POST" action="{{url('addshift')}}">
                              @csrf
                             <div class="form-group">
                                 <label for="title" class="col-md-4 control-label">Title</label>
